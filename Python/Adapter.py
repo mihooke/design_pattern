@@ -22,8 +22,12 @@ class OppoPhone(object):
     def leader(self):
         return "Duan Yongping"
 
-# attentions:over the four class have interface
-
+"""
+Attentions:over the four class have interface.
+Adapter pattern provides a uniform interface for users.
+For example, below we encapsulate only a 'head()' function, instead four class's four function
+'ceo()'/'boss()'/'leader()'/'leader()'
+"""
 class Adapter(object):
     def __init__(self, phone, head):
         self.phone = phone
