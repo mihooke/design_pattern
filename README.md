@@ -15,3 +15,9 @@
  * Factory pattern can create objects base on one-type class, that is to say
  * if you want to create another objects of another class, then you must 
  * provide another class's interface or achieving.
+
+ # 4  Observer
+ * Observer pattern, is very common to use in fact coding.The MVC framework is use Observer to design.
+ * It sloves a problem, like a subject depends some observer, if a subject changes, some observers all could know these changes.
+ * The best example is, when you want to show a list of data in defferent styles, thus your data is subject
+ * and styles are observers. When data changes, all styles could change synchronously.
