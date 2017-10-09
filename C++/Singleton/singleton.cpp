@@ -1,13 +1,13 @@
 #include "singleton.h"
 
-Singleton *Singleton::_instance = 0;
+Singleton *Singleton::_instance = nullptr;
 
 Singleton::Singleton() { }
 
 // Can write in this way
 Singleton *Singleton::Instance()
 {
-	if (_instance == 0)
+	if (_instance == nullptr)
 		_instance = new Singleton();
 	return _instance;
 }
