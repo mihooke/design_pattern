@@ -21,3 +21,10 @@
  * It sloves a problem, like a subject depends some observer, if a subject changes, some observers all could know these changes.
  * The best example is, when you want to show a list of data in defferent styles, thus your data is subject
  * and styles are observers. When data changes, all styles could change synchronously.
+
+ # 5  Bridge
+ * Bridge pattern mainly use composition to detach a abstract class and its opsration. That means one class devides some abstract interfaces, and the other class devides those interfaces realization.
+
+ # 6 Singleton
+ * Singleton pattern, just as its name implies, you can only create one instance.This is very useful in fact projects.Urually you need to express some things as a single object, e.g. the number of tickets in a ticket system.
+ * Sometimes, we want to forbidden to copy between classes using copy constructor.The Boost library boost::noncopyable is a better selection.
