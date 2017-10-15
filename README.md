@@ -28,3 +28,7 @@
  # 6 Singleton
  * Singleton pattern, just as its name implies, you can only create one instance.This is very useful in fact projects.Urually you need to express some things as a single object, e.g. the number of tickets in a ticket system.
  * Sometimes, we want to forbidden to copy between classes using copy constructor.The Boost library boost::noncopyable is a better selection.
+
+ # 7 Decorator
+ * The core of this pattern is providing extendibilities to client for users who use the encapsluted functions, for example, the interfaces in EXPORT DLLs.If you want to add a new function to a DLL, but you don't want to destory the encasluted class...
+ * So you could use decorator, either a class or lots of classes(in our living example code is SubComponent class), you just create only one decorator class(in our living example code is Decorator class), then add the new functions to here. 
