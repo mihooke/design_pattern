@@ -32,3 +32,10 @@
  # 7 Decorator
  * The core of this pattern is providing extendibilities to client for users who use the encapsluted functions, for example, the interfaces in EXPORT DLLs.If you want to add a new function to a DLL, but you don't want to destory the encasluted class...
  * So you could use decorator, either a class or lots of classes(in our living example code is SubComponent class), you just create only one decorator class(in our living example code is Decorator class), then add the new functions to here. 
+
+ # 8 Composite
+ * Composite pattern is similar to Decorator,but Composite has a bias towards including a list of objects invoke them from outside
+
+ # 9 Flyweight
+ * Flyweight pattern is similar to Factory pattern.But Flyweight only creates once if there are many same objects i.e. below "mihooke".Its property is very useful in many objects of your projects, hence you can save memory.
+ * Also there is a property-inner state,we call the first property outter state.You can use virtual function : Operation() to add new infomations for objects.For example,"mihooke" Flyweight objects have two.In fact,only the first statement create the "mihooke" object the third statement return the first object.
