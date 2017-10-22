@@ -39,3 +39,13 @@
  # 9 Flyweight
  * Flyweight pattern is similar to Factory pattern.But Flyweight only creates once if there are many same objects i.e. below "mihooke".Its property is very useful in many objects of your projects, hence you can save memory.
  * Also there is a property-inner state,we call the first property outter state.You can use virtual function : Operation() to add new infomations for objects.For example,"mihooke" Flyweight objects have two.In fact,only the first statement create the "mihooke" object the third statement return the first object.
+
+ # 10 Facade
+ * Facade pattern is a encapsulation of dispersive public interfaces in a list of class in fact.
+ * In many cases,the public interfaces is dispersive in multi-class i.e. ComponentOne/ComponentTwo... maybe they have different function name, but they may will be
+ * invoked at the same time,therefore we need a class to provide them i.e. Facade
+
+ # 11 Proxy
+ * Proxy pattern is very very common for us, and widely uesed.This pattern is meaning of letting proxy to do things instead.
+ * For example,1. in GUI,we usually create a thread to do time-consuming task.this thread is a proxy.
+ * 2. in network,for quick response,we usually use a proxy to reply client instead server.So,you could find Facade pattern also uses Proxy pattern internally.
