@@ -49,3 +49,6 @@
  * Proxy pattern is very very common for us, and widely uesed.This pattern is meaning of letting proxy to do things instead.
  * For example,1. in GUI,we usually create a thread to do time-consuming task.this thread is a proxy.
  * 2. in network,for quick response,we usually use a proxy to reply client instead server.So,you could find Facade pattern also uses Proxy pattern internally.
+
+ # 12 Template
+ * Template pattern defines a skeleton of an generic interface in some operations, deferring some steps to subclass.The Template method lets subclass redefine certain steps of that interface without changing the structure.
