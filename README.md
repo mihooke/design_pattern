@@ -52,3 +52,10 @@
 
  # 12 Template
  * Template pattern defines a skeleton of an generic interface in some operations, deferring some steps to subclass.The Template method lets subclass redefine certain steps of that interface without changing the structure.
+
+ # 13 Mediator
+ * Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+
+ # 14 Strategy
+ * Defines a family of algorithms, encapsulates each one,and make them interchangeable. Strategy lets the algorithm vary independently from clients who use it.In OO programing,one important rule is 'Favor Composition Over Inheritance'.So the Stategy pattern uses composition,and the Template pattern uses Inheritance.
+ * Both two have advantages and disadvantages,use them on base fact project.
