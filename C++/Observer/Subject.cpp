@@ -15,12 +15,11 @@ void Subject::UnRegisterObserver(Observer *o)
 {
 	if (o != nullptr)
 	{
-		std::list<Observer*>::iterator itr = m_list.begin();
-		for (; itr != m_list.end(); itr++)
+		for (auto observer : m_list)
 		{
-			if ((*itr) == o) return;
+			if (observer == o)
+				m_list.remove(observer);
 		}
-		m_list.remove(o);
 	}
 }
 
